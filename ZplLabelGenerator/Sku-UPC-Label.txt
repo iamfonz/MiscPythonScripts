@@ -1,0 +1,22 @@
+${
+^XA
+
+^FX SKU Section
+^CF0,40
+^FO50,50^FD SKU
+^FS
+
+^FX Barcode of UPC
+^BY4,2,60
+^FO100,150
+^BC ^FD UPC HERE!^FS
+
+^FX Line
+^FO50,250^GB720,1,3^FS
+
+^FX from sku to upc, +100 on y-axis
+^FX from UPC to line, +100 on y-axis
+^FX from line to next item, +50 on y-axis
+
+^XZ
+}$
